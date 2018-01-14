@@ -9,4 +9,4 @@ def my_each (words)
 end
 
 
-my_each(words) { |i| puts i }
+#my_each(words) { |i| puts i }
