@@ -7,6 +7,3 @@ def my_each (words)
   end
   words
 end
-
-
-#my_each(words) { |i| puts i }
