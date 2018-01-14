@@ -1,3 +1,12 @@
-def my_each # put argument(s) here
-  # code here
+words = [1,2,3]
+def my_each (words)
+  length = 0
+  while length > words.size
+    yield(words[length])
+    length = length + 1
+  end
+  words
 end
+
+
+my_each(words) { |i| puts i }
